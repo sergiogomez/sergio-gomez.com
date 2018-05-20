@@ -1,0 +1,89 @@
+baseURL = "http://sergio-gomez.com/"
+languageCode = "en-us"
+title = "Sergio Gómez"
+theme = "split"
+disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics = "5f29jwxw53"
+
+# Copyright
+copyright = "Una vida dedicada a la sonrisa, a mis niños y al rock and roll"
+
+[params]
+
+  # Metadata for search engines and social sharing
+  name = "Sergio Gómez"
+  description = "Ruby on Rails Developer"
+  shareImage = "images/sergio-gomez.jpg"
+  twitterHandle = "sergiogomez"
+
+  # Favicon
+  favicon = "favicon.ico"
+
+  # Section - Content
+  [params.content]
+    name = "Sergio Gómez"
+    tagline = "Ruby on Rails Developer"
+    bio = "- Rails Developer @ [ASPgems](https://aspgems.com/)<br>Rythm guitar/bg vocals @ [Jose Rockalcohol](http://joserockalcohol.com/)"
+
+  # Section - Visual
+  [params.visual]
+
+    # Image
+    [params.visual.image]
+      enable = true
+      file = "images/sergio-gomez.jpg"
+      position = "center center"
+
+    # Video
+    [params.visual.video]
+      enable = false
+      mute = true
+      file = "videos/background.mp4"
+      # youtubeId = "dk9uNWPP7EA"
+
+  # Links
+  #
+  # Links List #1
+  [[params.links]]
+    [params.links.list1]
+      heading = "Music"
+
+      [[params.links.list1.link]]
+        text = "Soundcloud"
+        url = "https://soundcloud.com/sergio-gomez"
+
+      [[params.links.list1.link]]
+        text = "Last.fm"
+        url = "https://lastfm.es/user/sergiogomez"
+
+  # Links List #2
+  [[params.links]]
+    [params.links.list2]
+      heading = "Social"
+
+      [[params.links.list2.link]]
+        text = "Twitter"
+        url = "https://twitter.com/sergiogomez"
+
+      [[params.links.list2.link]]
+        text = "Instagram"
+        url = "https://www.instagram.com/sergiogomez/"
+
+      [[params.links.list2.link]]
+        text = "Facebook"
+        url = "https://www.facebook.com/sergiogomezleon"
+
+  # Links List #3
+  [[params.links]]
+    [params.links.list3]
+      heading = "Jobs"
+
+      [[params.links.list3.link]]
+        text = "GitHub"
+        url = "https://github.com/sergiogomez/"
+
+      [[params.links.list3.link]]
+        text = "LinkedIn"
+        url = "https://www.linkedin.com/in/sergiogomezleon/"
