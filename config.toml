@@ -1,4 +1,4 @@
-baseURL = "http://sergio-gomez.com/"
+baseURL = "https://sergio-gomez.com/"
 languageCode = "en-us"
 title = "Sergio Gómez"
 theme = "split"
