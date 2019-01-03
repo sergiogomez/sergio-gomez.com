@@ -5,7 +5,7 @@ theme = "split"
 disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
 
 # Enter your tracking code to enable Google Analytics
-googleAnalytics = "5f29jwxw53"
+googleAnalytics = "UA-51608107-2"
 
 # Copyright
 copyright = "Una vida dedicada a la sonrisa, a mis niños y al rock and roll"
