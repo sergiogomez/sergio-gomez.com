@@ -25,7 +25,7 @@ copyright = "Una vida dedicada a la sonrisa, a mis niños y al rock and roll"
   [params.content]
     name = "Sergio Gómez"
     tagline = "Ruby on Rails Developer"
-    bio = "- Rails Developer @ [ASPgems](https://aspgems.com/)<br>Rythm guitar/bg vocals @ [Jose Rockalcohol](http://joserockalcohol.com/)"
+    bio = "- Platform Engineer @ [Stuart](https://stuart.com/)<br>Almost all @ [Sergio Gómez ♪](https://www.facebook.com/SergioGomezRock)<br>Rythm guitar/bg vocals @ [Jose Rockalcohol ♪](https://joserockalcohol.com/)<br>Vocals/rythm guitar @ [The Cobardes ♪](https://www.facebook.com/TheCobardesBand)"
 
   # Section - Visual
   [params.visual]
@@ -49,6 +49,14 @@ copyright = "Una vida dedicada a la sonrisa, a mis niños y al rock and roll"
   [[params.links]]
     [params.links.list1]
       heading = "Music"
+
+      [[params.links.list1.link]]
+        text = "Spotify"
+        url = "https://open.spotify.com/artist/1VlsG4YnD0Rhi6vODeKJEr?si=4R1C10qnRLyexduJH0MeYA"
+
+      [[params.links.list1.link]]
+        text = "Youtube"
+        url = "https://www.youtube.com/SergioGomezRock"
 
       [[params.links.list1.link]]
         text = "Soundcloud"
