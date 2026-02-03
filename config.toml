@@ -2,13 +2,12 @@ baseURL = "https://sergio-gomez.com/"
 languageCode = "en-us"
 title = "Sergio Gómez"
 theme = "split"
-disableKinds = ["page", "section", "taxonomy", "taxonomyTerm", "RSS", "sitemap", "robotsTXT"]
-
-# Enter your tracking code to enable Google Analytics
-googleAnalytics = "UA-51608107-2"
-
-# Copyright
+disableKinds = ["page", "section", "taxonomy", "term", "RSS", "sitemap", "robotsTXT"]
 copyright = "Una vida dedicada a la sonrisa, a mis niños y al rock and roll"
+
+[services]
+  [services.googleAnalytics]
+    ID = "UA-51608107-2"
 
 [params]
 
@@ -20,12 +19,6 @@ copyright = "Una vida dedicada a la sonrisa, a mis niños y al rock and roll"
 
   # Favicon
   favicon = "favicon.ico"
-
-  # Section - Content
-  [params.content]
-    name = "Sergio Gómez"
-    tagline = "Ruby on Rails Developer"
-    bio = "- Platform Engineer @ [Stuart](https://stuart.com/)<br>Almost all @ [Sergio Gómez ♪](https://www.facebook.com/SergioGomezRock)<br>Rythm guitar/bg vocals @ [Jose Rockalcohol ♪](https://joserockalcohol.com/)<br>Vocals/rythm guitar @ [The Cobardes ♪](https://www.facebook.com/TheCobardesBand)"
 
   # Section - Visual
   [params.visual]
